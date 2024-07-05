@@ -19,7 +19,7 @@ router.register(r"categoria", CategoriaViewSet, basename="categoria")
 router.register(r"cor", CorViewSet, basename="cor") 
 router.register(r"marca", MarcaViewSet, basename="marca") 
 router.register(r"modelo", ModeloViewSet, basename="modelo") 
-router.register(r"veiculo", VeiculoViewSet, basename="modelo") 
+router.register(r"veiculo", VeiculoViewSet, basename="veiculo") 
 
 
 urlpatterns = [

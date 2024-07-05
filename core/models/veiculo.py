@@ -1,7 +1,9 @@
 from django.db import models
+
 from .modelo import Modelo
 from .cor import Cor
 from .acessorio import Acessorio
+
 
 class Veiculo(models.Model):
     nome = models.CharField(max_length=100)
