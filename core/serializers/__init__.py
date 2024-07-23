@@ -3,5 +3,5 @@ from .acessorio import AcessorioSerializer
 from .categoria import CategoriaSerializer
 from .cor import CorSerializer
 from .marca import MarcaSerializer
-from .modelo import ModeloSerializer
+from .modelo import ModeloSerializer, ModeloWriteSerializer
 from .veiculo import VeiculoSerializer

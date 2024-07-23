@@ -6,3 +6,9 @@ class ModeloSerializer(ModelSerializer):
     class Meta:
         model = Modelo
         fields = "__all__"
+        depth = 1
+
+class ModeloWriteSerializer(ModelSerializer):
+    class Meta:
+        model = Modelo
+        fields = "__all__"
