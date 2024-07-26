@@ -16,5 +16,6 @@ class UserViewSet(ModelViewSet):
     def me(self, request):
         """Return the current authenticated user"""
         user = request.user
+        print(user)
         serializer = UserSerializer(user)
         return Response(serializer.data, status=status.HTTP_200_OK)
