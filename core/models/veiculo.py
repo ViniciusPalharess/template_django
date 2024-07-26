@@ -4,7 +4,6 @@ from .modelo import Modelo
 from .cor import Cor
 from .acessorio import Acessorio
 
-
 class Veiculo(models.Model):
     nome = models.CharField(max_length=100)
     ano = models.IntegerField(default=0,  null=True, blank=True,)
